@@ -18,33 +18,11 @@ bash <(curl -s https://raw.githubusercontent.com/zricethezav/gitleaks-ci/master/
 ```
 **You should fork this repo and use the `gitleaks.sh` script you own rather than assuming my trust.**
 
-#### PR logs
-Sample PR with a leak [here](https://github.com/zricethezav/gitleaks-ci/pull/15)
 ##### CircleCI
 
 <p align="left">
   <img alt="gitleaks-ci" src="https://raw.githubusercontent.com/zricethezav/gifs/master/circle_fail.png" />
 </p>
-
-##### Travis
-
-<p align="left">
-  <img alt="gitleaks-ci" src="https://raw.githubusercontent.com/zricethezav/gifs/master/travis_fail.png" height="240" />
-</p>
-
-
----
-
-### Accessing Private Repos
-Gitleaks-CI requires the owner's credentials to access private repos
-#### Travis
-If you are using Travis read [this](https://docs.travis-ci.com/user/environment-variables/#Defining-encrypted-variables-in-.travis.yml) to add `GITHUB_USERNAME` and `GITHUB_API_TOKEN` environment variables.
-
-#### CircleCI
-TODO
-
-#### Jenkins
-TODO
 
 
 ### If you find leaks in your PR
